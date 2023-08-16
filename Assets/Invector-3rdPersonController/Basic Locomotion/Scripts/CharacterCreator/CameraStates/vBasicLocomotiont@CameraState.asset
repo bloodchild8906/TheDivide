@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7592ac57a97621844bb7d05b6822c040, type: 3}
+  m_Name: vBasicLocomotiont@CameraState
+  m_EditorClassIdentifier: 
+  Name: 
+  tpCameraStates:
+  - Name: Default
+    forward: -1
+    right: 0
+    defaultDistance: 2.5
+    maxDistance: 80
+    minDistance: 0.6
+    height: 1.25
+    smooth: 10
+    smoothDamp: 2
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -75
+    yMaxLimit: 75
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0.84, y: 0.99, z: 0}
+    cullingHeight: 1.8
+    cullingMinDist: 0.01
+    fov: 60
+    useZoom: 0
+    fixedAngle: {x: 360, y: 78}
+    lookPoints:
+    - pointName: point_01
+      positionPoint: {x: 0, y: 1, z: -10}
+      eulerAngle: {x: -0, y: 0, z: 0}
+      freeRotation: 0
+    cameraMode: 0
+  - Name: Sprinting
+    forward: -1
+    right: 0
+    defaultDistance: 2.5
+    maxDistance: 80
+    minDistance: 0.6
+    height: 1.25
+    smooth: 10
+    smoothDamp: 2
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -75
+    yMaxLimit: 75
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0.84, y: 0.99, z: 0}
+    cullingHeight: 1.8
+    cullingMinDist: 0.01
+    fov: 70
+    useZoom: 0
+    fixedAngle: {x: 360, y: 78}
+    lookPoints:
+    - pointName: point_01
+      positionPoint: {x: 0, y: 1, z: -10}
+      eulerAngle: {x: -0, y: 0, z: 0}
+      freeRotation: 0
+    cameraMode: 0
+  - Name: Crouch
+    forward: -1
+    right: 0.15
+    defaultDistance: 2
+    maxDistance: 6.55
+    minDistance: 0.5
+    height: 1
+    smooth: 10
+    smoothDamp: 4
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -40
+    yMaxLimit: 70
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 0.7
+    cullingMinDist: 0.1
+    fov: 60
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
+  - Name: Strafing
+    forward: -1
+    right: 0
+    defaultDistance: 2.5
+    maxDistance: 1.5
+    minDistance: 0.25
+    height: 1.6
+    smooth: 10
+    smoothDamp: 4
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 5, y: 0, z: 0}
+    cullingHeight: 1.5
+    cullingMinDist: 0.1
+    fov: 50
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
+  - Name: Pendulum
+    forward: -1
+    right: 0.28
+    defaultDistance: 12
+    maxDistance: 3
+    minDistance: 0.5
+    height: 1.8
+    smooth: 10
+    smoothDamp: 4
+    xMouseSensitivity: 0
+    yMouseSensitivity: 0
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 1
+    cullingMinDist: 0.1
+    fov: 55
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints:
+    - pointName: point_01
+      positionPoint: {x: 26.55739, y: 11.5149355, z: -14.382481}
+      eulerAngle: {x: 18.395489, y: 3.074889, z: 0.00039735218}
+      freeRotation: 1
+    cameraMode: 2
+  - Name: Sliding
+    forward: -1
+    right: 0
+    defaultDistance: 1
+    maxDistance: 3
+    minDistance: 0.5
+    height: 0.5
+    smooth: 10
+    smoothDamp: 10
+    xMouseSensitivity: 1
+    yMouseSensitivity: 1
+    yMinLimit: -10
+    yMaxLimit: 20
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 0.2
+    cullingMinDist: 0.1
+    fov: 60
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints:
+    - pointName: point_01
+      positionPoint: {x: 26.55739, y: 11.5149355, z: -14.382481}
+      eulerAngle: {x: 18.395489, y: 3.0748892, z: 0.00039735215}
+      freeRotation: 0
+    - pointName: point_02
+      positionPoint: {x: 29.395, y: 0.709, z: 2.2409992}
+      eulerAngle: {x: 357.80994, y: 88.88348, z: 359.81253}
+      freeRotation: 0
+    - pointName: point_03
+      positionPoint: {x: 37.249695, y: 0.97621524, z: 2.2345524}
+      eulerAngle: {x: 2.0625482, y: 271.75256, z: -0.00016467154}
+      freeRotation: 0
+    cameraMode: 2

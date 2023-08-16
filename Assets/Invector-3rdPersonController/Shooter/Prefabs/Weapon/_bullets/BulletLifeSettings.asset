@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ddbd92dcd1357e48867cd8dd4822572, type: 3}
+  m_Name: BulletLifeSettings
+  m_EditorClassIdentifier: 
+  bulletLostLifeList:
+  - layers:
+      serializedVersion: 2
+      m_Bits: 1
+    tags:
+    - Untagged
+    - Metal
+    - Concrete
+    reduceLife: 90
+    ricochet: 0
+    maxThicknessToCross: 0.1
+    damageReducePercentage: 100
+    minChangeTrajectory: 0
+    maxChangeTrajectory: 0
+  - layers:
+      serializedVersion: 2
+      m_Bits: 1
+    tags:
+    - Untagged
+    - Dirt
+    - Barrel
+    reduceLife: 50
+    ricochet: 0
+    maxThicknessToCross: 0.2
+    damageReducePercentage: 100
+    minChangeTrajectory: 3.2
+    maxChangeTrajectory: 13.5
+  - layers:
+      serializedVersion: 2
+      m_Bits: 32768
+    tags:
+    - Enemy
+    - Player
+    - Boss
+    - Untagged
+    - CompanionAI
+    reduceLife: 100
+    ricochet: 0
+    maxThicknessToCross: 0.35
+    damageReducePercentage: 50
+    minChangeTrajectory: 1
+    maxChangeTrajectory: 2
+  - layers:
+      serializedVersion: 2
+      m_Bits: 1
+    tags:
+    - Glass
+    - Wood
+    reduceLife: 25
+    ricochet: 0
+    maxThicknessToCross: 0.4
+    damageReducePercentage: 10
+    minChangeTrajectory: 0.5
+    maxChangeTrajectory: 12.7

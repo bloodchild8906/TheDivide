@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7592ac57a97621844bb7d05b6822c040, type: 3}
+  m_Name: vShooterMelee@CameraState
+  m_EditorClassIdentifier: 
+  Name: 
+  tpCameraStates:
+  - Name: Default
+    forward: -1
+    right: 0.2
+    defaultDistance: 1.8
+    maxDistance: 12
+    minDistance: 0.6
+    height: 1.6
+    smooth: 10
+    smoothDamp: 6
+    xMouseSensitivity: 2
+    yMouseSensitivity: 2
+    yMinLimit: -70
+    yMaxLimit: 70
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 8, y: 0, z: 0}
+    cullingHeight: 1.9
+    cullingMinDist: 0.01
+    fov: 60
+    useZoom: 0
+    fixedAngle: {x: 360, y: 78}
+    lookPoints:
+    - pointName: point_01
+      positionPoint: {x: 0, y: 1, z: -10}
+      eulerAngle: {x: -0, y: 0, z: 0}
+      freeRotation: 0
+    cameraMode: 0
+  - Name: ThrowStanding
+    forward: -1
+    right: 0.75
+    defaultDistance: 1
+    maxDistance: 12
+    minDistance: 0.6
+    height: 1.75
+    smooth: 10
+    smoothDamp: 1
+    xMouseSensitivity: 2
+    yMouseSensitivity: 2
+    yMinLimit: -70
+    yMaxLimit: 70
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 8, y: 0, z: 0}
+    cullingHeight: 1.9
+    cullingMinDist: 0.01
+    fov: 60
+    useZoom: 0
+    fixedAngle: {x: 360, y: 78}
+    lookPoints:
+    - pointName: point_01
+      positionPoint: {x: 0, y: 1, z: -10}
+      eulerAngle: {x: -0, y: 0, z: 0}
+      freeRotation: 0
+    cameraMode: 0
+  - Name: ThrowCrouching
+    forward: -1
+    right: 0.4
+    defaultDistance: 1.5
+    maxDistance: 6.55
+    minDistance: 0.5
+    height: 0.8
+    smooth: 10
+    smoothDamp: 0
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -40
+    yMaxLimit: 70
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 1.5
+    cullingMinDist: 0.1
+    fov: 70
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
+  - Name: Crouch
+    forward: -1
+    right: 0.4
+    defaultDistance: 1.5
+    maxDistance: 6.55
+    minDistance: 0.5
+    height: 0.8
+    smooth: 10
+    smoothDamp: 0
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -40
+    yMaxLimit: 70
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 1.5
+    cullingMinDist: 0.1
+    fov: 70
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
+  - Name: Aiming
+    forward: -1
+    right: 0.34
+    defaultDistance: 1.23
+    maxDistance: 1.5
+    minDistance: 0.25
+    height: 1.6
+    smooth: 10
+    smoothDamp: 1
+    xMouseSensitivity: 2
+    yMouseSensitivity: 1
+    yMinLimit: -50
+    yMaxLimit: 70
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 1.5
+    cullingMinDist: 0.1
+    fov: 35
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
+  - Name: AimingScopeView
+    forward: 1
+    right: 0
+    defaultDistance: -0.2
+    maxDistance: 1.5
+    minDistance: 0.25
+    height: 0
+    smooth: 60
+    smoothDamp: 0
+    xMouseSensitivity: 2
+    yMouseSensitivity: 1
+    yMinLimit: -50
+    yMaxLimit: 70
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 1.5
+    cullingMinDist: 0.1
+    fov: 31
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
+  - Name: Strafing
+    forward: -1
+    right: 0.15
+    defaultDistance: 2.8
+    maxDistance: 3
+    minDistance: 0.5
+    height: 1.61
+    smooth: 10
+    smoothDamp: 1
+    xMouseSensitivity: 2.5
+    yMouseSensitivity: 2.5
+    yMinLimit: -80
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 8, y: 0, z: 0}
+    cullingHeight: 1.9
+    cullingMinDist: 0.1
+    fov: 50
+    useZoom: 0
+    fixedAngle: {x: 0, y: 15}
+    lookPoints:
+    - pointName: point_01
+      positionPoint: {x: 27.862371, y: 8.697912, z: -13.253475}
+      eulerAngle: {x: 1.2032634, y: 0.6535967, z: 0.0000026131736}
+      freeRotation: 1
+    cameraMode: 0
+  - Name: LockOn
+    forward: -1
+    right: 0.4
+    defaultDistance: 1.3
+    maxDistance: 3
+    minDistance: 0.5
+    height: 1.9
+    smooth: 2
+    smoothDamp: 10
+    xMouseSensitivity: 2.5
+    yMouseSensitivity: 2.5
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 8, y: 0, z: 0}
+    cullingHeight: 1.9
+    cullingMinDist: 0.1
+    fov: 70
+    useZoom: 0
+    fixedAngle: {x: 0, y: 15}
+    lookPoints:
+    - pointName: point_01
+      positionPoint: {x: 27.862371, y: 8.697912, z: -13.253475}
+      eulerAngle: {x: 1.2032634, y: 0.6535967, z: 0.0000026131736}
+      freeRotation: 1
+    cameraMode: 0
+  - Name: Building
+    forward: -1
+    right: 0
+    defaultDistance: 2
+    maxDistance: 3
+    minDistance: 0.5
+    height: 1.5
+    smooth: 10
+    smoothDamp: 10
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 1
+    cullingMinDist: 0.1
+    fov: 70
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
+  - Name: CrouchingAiming
+    forward: -1
+    right: 0.5
+    defaultDistance: 1.5
+    maxDistance: 3
+    minDistance: 0.5
+    height: 1.2
+    smooth: 10
+    smoothDamp: 0
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 0.2
+    cullingMinDist: 0.1
+    fov: 60
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
+  - Name: Parachute
+    forward: -1
+    right: 0
+    defaultDistance: 3
+    maxDistance: 3
+    minDistance: 0.5
+    height: 1
+    smooth: 10
+    smoothDamp: 6
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -70
+    yMaxLimit: 70
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 27.43, y: 0, z: 0}
+    cullingHeight: 1.9
+    cullingMinDist: 0.1
+    fov: 80
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
+  - Name: Pendulum
+    forward: 60
+    right: 0
+    defaultDistance: 1.5
+    maxDistance: 3
+    minDistance: 0.5
+    height: 0
+    smooth: 10
+    smoothDamp: 0
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 0.2
+    cullingMinDist: 0.1
+    fov: 60
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints:
+    - pointName: point_01
+      positionPoint: {x: 27.547112, y: 10.252861, z: -12.339367}
+      eulerAngle: {x: 8.114238, y: 0.2435233, z: -0.0003775559}
+      freeRotation: 1
+    cameraMode: 2

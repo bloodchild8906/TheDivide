@@ -1,0 +1,745 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3602cfd0ac79644a19fea8f4fd1b49, type: 3}
+  m_Name: vMelee_ItemListData
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 114000013967465728}
+  - {fileID: 114000011454979648}
+  - {fileID: 114000014017037032}
+  - {fileID: 114000014005472098}
+  - {fileID: 114000013983157954}
+  - {fileID: 114000013569560620}
+  - {fileID: 114000012982302300}
+  - {fileID: 114000011522160142}
+  - {fileID: 114000012184096246}
+  - {fileID: 114000010878405866}
+  - {fileID: 11411124}
+  - {fileID: 11437076}
+  - {fileID: 11411708}
+  - {fileID: 114043347838910644}
+  inEdition: 1
+  itemsHidden: 1
+--- !u!114 &11411124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: KeyCard Blue
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 10
+  description: Blue Keycard to open doors
+  type: 0
+  icon: {fileID: 21300000, guid: 72f7d3138d397a94d82105b26272e764, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 0}
+  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: 
+  DisableAnim: 
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &11411708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: KeyCard Gold
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 12
+  description: Gold Keycard to open doors
+  type: 0
+  icon: {fileID: 21300006, guid: 72f7d3138d397a94d82105b26272e764, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 0}
+  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: 
+  DisableAnim: 
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &11437076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: KeyCard Red
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 11
+  description: Red Keycard to open doors
+  type: 0
+  icon: {fileID: 21300002, guid: 72f7d3138d397a94d82105b26272e764, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 0}
+  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: 
+  DisableAnim: 
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114000010878405866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Great Shield
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 9
+  description: 'Melee Shield
+
+    Recoil: Hard
+
+    Bonus: Break Attack '
+  type: 6
+  icon: {fileID: 21300000, guid: 4a46b7c6ff6f17a4a95bfb58b3397585, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1000012874595254, guid: d4ca9135af96d5142987a1f1427b099a,
+    type: 3}
+  dropObject: {fileID: 8587624101741613191, guid: e26f928aabf2af048b7def78ec83a486,
+    type: 3}
+  attributes:
+  - name: 3
+    value: 0
+    isOpen: 0
+    isBool: 0
+  - name: 4
+    value: 100
+    isOpen: 0
+    isBool: 0
+  - name: 5
+    value: 90
+    isOpen: 0
+    isBool: 0
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: shieldHandler
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114000011454979648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Short Katana
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 1
+  description: Melee Weapon
+  type: 1
+  icon: {fileID: 21300000, guid: 56e79d7e38be01c4c9171802884dfb05, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1000011247033104, guid: 43ec053b9c111644e80b4ddb5f535508,
+    type: 3}
+  dropObject: {fileID: 3314097323225006234, guid: 0f2c84cd3287333448744ce0451196cd,
+    type: 3}
+  attributes:
+  - name: 2
+    value: 25
+    isOpen: 0
+    isBool: 0
+  - name: 3
+    value: 20
+    isOpen: 0
+    isBool: 0
+  - name: 4
+    value: 85
+    isOpen: 0
+    isBool: 0
+  - name: 5
+    value: 70
+    isOpen: 0
+    isBool: 0
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowFront
+  DisableAnim: LowFront
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114000011522160142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Great Sword
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 7
+  description: Melee Weapon
+  type: 1
+  icon: {fileID: 21300000, guid: 68199bff0f78a2d4ca77e20ccc91ef76, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1000014209087140, guid: d03b45803e637bb4fb00a1ca9030d66e,
+    type: 3}
+  dropObject: {fileID: 4500584118820961459, guid: eca1e51be6676704dbb7f23b4947883b,
+    type: 3}
+  attributes:
+  - name: 2
+    value: 30
+    isOpen: 0
+    isBool: 0
+  - name: 3
+    value: 20
+    isOpen: 0
+    isBool: 0
+  - name: 4
+    value: 85
+    isOpen: 0
+    isBool: 0
+  - name: 5
+    value: 70
+    isOpen: 0
+    isBool: 0
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowFront
+  DisableAnim: LowFront
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 1
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114000012184096246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Great Katana
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 8
+  description: Melee Weapon
+  type: 1
+  icon: {fileID: 21300000, guid: 75c369d61ea60a54e877b01a25ae0916, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1000013423493360, guid: 6bbee781522ce5243a02bf72cd914cf5,
+    type: 3}
+  dropObject: {fileID: 2197774501603174495, guid: 7dcfb29ec0c968041b99dd41d13cec28,
+    type: 3}
+  attributes:
+  - name: 2
+    value: 25
+    isOpen: 0
+    isBool: 0
+  - name: 3
+    value: 20
+    isOpen: 0
+    isBool: 0
+  - name: 4
+    value: 85
+    isOpen: 0
+    isBool: 0
+  - name: 5
+    value: 10
+    isOpen: 0
+    isBool: 0
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowFront
+  DisableAnim: LowFront
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 1
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114000012982302300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 6
+  description: 'Melee Shield
+
+    Recoil: Low'
+  type: 6
+  icon: {fileID: 21300000, guid: 40e348f6451ddf7438089a59a033e57f, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1000010116632662, guid: 2232bbcc5a195274c9744c2c6352e910,
+    type: 3}
+  dropObject: {fileID: 862192267840601332, guid: d07ef1bfe3f5bf4469394a9c723bbbc1,
+    type: 3}
+  attributes:
+  - name: 3
+    value: 0
+    isOpen: 0
+    isBool: 0
+  - name: 4
+    value: 80
+    isOpen: 0
+    isBool: 0
+  - name: 5
+    value: 90
+    isOpen: 0
+    isBool: 0
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: shieldHandler
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114000013569560620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Max Health Potion
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 5
+  description: Increases the MaxHealth
+  type: 0
+  icon: {fileID: 21300000, guid: e60fbeee962473a4bb627f9d7dc341b0, type: 3}
+  stackable: 1
+  maxStack: 10
+  amount: 0
+  originalObject: {fileID: 0}
+  dropObject: {fileID: 1000010221758328, guid: ece88c1afc659094e93bccace77fab7a, type: 3}
+  attributes:
+  - name: 7
+    value: 50
+    isOpen: 1
+    isBool: 0
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: 
+  DisableAnim: 
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114000013967465728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 0
+  description: Melee Weapon
+  type: 1
+  icon: {fileID: 21300000, guid: b2158c09d5bc7284989f53a47f7638e3, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1000010725870802, guid: 0cf98a7633e41834ba19e8626f1ceadc,
+    type: 3}
+  dropObject: {fileID: 880292917891664030, guid: 4ce32edaf6024884898e95f24f9f763a,
+    type: 3}
+  attributes:
+  - name: 2
+    value: 30
+    isOpen: 0
+    isBool: 0
+  - name: 3
+    value: 35
+    isOpen: 0
+    isBool: 0
+  - name: 4
+    value: 60
+    isOpen: 0
+    isBool: 0
+  - name: 5
+    value: 85
+    isOpen: 0
+    isBool: 0
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: HighBack
+  DisableAnim: HighBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114000013983157954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Stamina Up Potion
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 4
+  description: Increase Stamina
+  type: 0
+  icon: {fileID: 21300000, guid: a7eb39caa37204044ae09aa0c8699270, type: 3}
+  stackable: 1
+  maxStack: 10
+  amount: 0
+  originalObject: {fileID: 0}
+  dropObject: {fileID: 1000011723862914, guid: 439b229da101b06419a0a87e0f4cef84, type: 3}
+  attributes:
+  - name: 8
+    value: 20
+    isOpen: 0
+    isBool: 0
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: 
+  DisableAnim: 
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114000014005472098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Short Sword
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 3
+  description: Melee Weapon
+  type: 1
+  icon: {fileID: 21300000, guid: 359a7ebb90d1a2c4eba5c493a73ca543, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1000012884940116, guid: 5dc53aa14e78ec54fbf2281c1abb7f47,
+    type: 3}
+  dropObject: {fileID: 819158048279699071, guid: 0f25b0bc9b7934840b324072cedb3325,
+    type: 3}
+  attributes:
+  - name: 2
+    value: 15
+    isOpen: 0
+    isBool: 0
+  - name: 3
+    value: 25
+    isOpen: 0
+    isBool: 0
+  - name: 4
+    value: 85
+    isOpen: 0
+    isBool: 0
+  - name: 5
+    value: 60
+    isOpen: 0
+    isBool: 0
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowFront
+  DisableAnim: LowFront
+  enableDelayTime: 0.25
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114000014017037032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Health Potion
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 2
+  description: Recover Health
+  type: 0
+  icon: {fileID: 21300000, guid: 862e9f0d31ea667448a05c4d0ec24492, type: 3}
+  stackable: 1
+  maxStack: 10
+  amount: 0
+  originalObject: {fileID: 0}
+  dropObject: {fileID: 1000013743731710, guid: 8bbf808ac1be0f84ab505cfdb9eb83b4, type: 3}
+  attributes:
+  - name: 0
+    value: 25
+    isOpen: 1
+    isBool: 0
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: 
+  DisableAnim: 
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114043347838910644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Dual Swords
+  m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
+  id: 24
+  description: Melee Weapon
+  type: 1
+  icon: {fileID: 21300000, guid: a568bb7d845ecf140a30a74582d14f45, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1000012884940116, guid: f0df66e0950da4642afce9f6382ab231,
+    type: 3}
+  dropObject: {fileID: 5960025752436353048, guid: 25e7bf6c702446e47bbc7ce3a6aaaeb5,
+    type: 3}
+  attributes:
+  - name: 2
+    value: 10
+    isOpen: 0
+    isBool: 0
+  - name: 3
+    value: 25
+    isOpen: 0
+    isBool: 0
+  - name: 4
+    value: 85
+    isOpen: 0
+    isBool: 0
+  - name: 5
+    value: 60
+    isOpen: 1
+    isBool: 0
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: HighBack
+  DisableAnim: HighBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: meleeHandler
+  twoHandWeapon: 1
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
