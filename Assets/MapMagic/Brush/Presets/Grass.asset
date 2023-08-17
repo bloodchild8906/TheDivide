@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265e24aa3bfda0545ad9515de39cc1a7, type: 3}
+  m_Name: Grass
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000, guid: c799929ef75a2f14e8cf943f1fd7ec99, type: 2}
+  radius: 25
+  hardness: 0.5
+  margins: 0
+  spacing: 0.1
+  ovd:
+    serializedDict: "< \"root\", \"Den.Tools.DictionaryOrdered`2[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], Den.Tools\", id1,\r\n 
+      < \"dict\", \"System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[MapMagic.Expose.Override+ObjType,
+      MapMagic]], mscorlib\", id2,\r\n    < \"buckets\", \"System.Int32[], mscorlib\",
+      id3 ,-1,-1,-1,-1,10,-1,0,2,-1,-1,-1,1,-1,-1,-1,-1,-1 >,\r\n    < \"entries\",
+      \"System.Collections.Generic.Dictionary`2+Entry[[System.String, mscorlib],[MapMagic.Expose.Override+ObjType,
+      MapMagic]][], mscorlib\", id4,\r\n      < \"0\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, 242105489 >,\r\n        < \"next\", System.Int32,
+      id0, -1 >,\r\n        < \"key\", System.String, id5, \"Position\" >,\r\n       
+      < \"value\", \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n         
+      < \"obj\", \"UnityEngine.Vector3, UnityEngine.CoreModule\", id0,\r\n           
+      < \"x\", System.Single, id0, 237.485474 >,\r\n            < \"y\", System.Single,
+      id0, 96.13644 >,\r\n            < \"z\", System.Single, id0, 497.577148 > >,\r\n         
+      < \"type\", \"System.RuntimeType, mscorlib\", id6, \"Den.Tools.Vector2D, Den.Tools\"
+      > > >,\r\n      < \"1\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, 1346871132 >,\r\n        < \"next\", System.Int32,
+      id0, -1 >,\r\n        < \"key\", System.String, id7, \"Radius\" >,\r\n       
+      < \"value\", \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n         
+      < \"obj\", System.Single, id0, 25 >,\r\n          < \"type\", \"System.RuntimeType,
+      mscorlib\", id8, \"System.Single, mscorlib\" > > >,\r\n      < \"2\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, 651638992 >,\r\n        < \"next\", System.Int32,
+      id0, -1 >,\r\n        < \"key\", System.String, id9, \"Hardness\" >,\r\n       
+      < \"value\", \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n         
+      < \"obj\", System.Single, id0, 0.5 >,\r\n          < \"type\", \"System.RuntimeType,
+      mscorlib\", id8 > > >,\r\n      < \"3\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, -1 >,\r\n        < \"next\", System.Int32,
+      id0, -1 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"4\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, -1 >,\r\n        < \"next\", System.Int32,
+      id0, 5 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"5\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, -1 >,\r\n        < \"next\", System.Int32,
+      id0, 0 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"6\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, -1 >,\r\n        < \"next\", System.Int32,
+      id0, 0 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"7\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, -1 >,\r\n        < \"next\", System.Int32,
+      id0, 8 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"8\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, -1 >,\r\n        < \"next\", System.Int32,
+      id0, 0 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"9\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, -1 >,\r\n        < \"next\", System.Int32,
+      id0, 0 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"10\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, 1759762722 >,\r\n        < \"next\", System.Int32,
+      id0, -1 >,\r\n        < \"key\", System.String, id10, \"Shift\" >,\r\n       
+      < \"value\", \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n         
+      < \"obj\", System.Boolean, id0, False >,\r\n          < \"type\", \"System.RuntimeType,
+      mscorlib\", id11, \"System.Boolean, mscorlib\" > > >,\r\n      < \"11\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, -1 >,\r\n        < \"next\", System.Int32,
+      id0, 12 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"12\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, -1 >,\r\n        < \"next\", System.Int32,
+      id0, 0 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"13\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, -1 >,\r\n        < \"next\", System.Int32,
+      id0, 14 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"14\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, -1 >,\r\n        < \"next\", System.Int32,
+      id0, 0 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"15\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, 0 >,\r\n        < \"next\", System.Int32,
+      id0, 0 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > >,\r\n      < \"16\", \"System.Collections.Generic.Dictionary`2+Entry[[System.String,
+      mscorlib],[MapMagic.Expose.Override+ObjType, MapMagic]], mscorlib\", id0,\r\n       
+      < \"hashCode\", System.Int32, id0, 0 >,\r\n        < \"next\", System.Int32,
+      id0, 0 >,\r\n        < \"key\", System.Object, id0, null >,\r\n        < \"value\",
+      \"MapMagic.Expose.Override+ObjType, MapMagic\", id0,\r\n          < \"obj\",
+      System.Object, id0, null >,\r\n          < \"type\", System.Object, id0, null
+      > > > >,\r\n    < \"count\", System.Int32, id0, 15 >,\r\n    < \"comparer\",
+      \"System.Collections.Generic.GenericEqualityComparer`1[[System.String, mscorlib]],
+      mscorlib\", id12 >,\r\n    < \"version\", System.Int32, id0, 60855 > >,\r\n 
+      < \"order\", \"System.Collections.Generic.List`1[[System.String, mscorlib]],
+      mscorlib\", id13,\r\n    < \"_items\", \"System.String[], mscorlib\", id14,\r\n     
+      < \"0\", \"System.String, mscorlib\", id7 >,\r\n      < \"1\", \"System.String,
+      mscorlib\", id9 >,\r\n      < \"2\", \"System.String, mscorlib\", id5 >,\r\n     
+      < \"3\", \"System.String, mscorlib\", id10 >,\r\n      < \"4\", System.Object,
+      id0, null >,\r\n      < \"5\", System.Object, id0, null >,\r\n      < \"6\",
+      System.Object, id0, null >,\r\n      < \"7\", System.Object, id0, null > >,\r\n   
+      < \"_size\", System.Int32, id0, 4 >,\r\n    < \"_version\", System.Int32, id0,
+      64 > > >"
+    unityObjects: []
+  guiShowUsedAutomatic: 0
+  guiShowAllAutomatic: 0
